@@ -1,0 +1,189 @@
+ python_d
+
+ Timestamp is 5662ecac (Sat Dec 05 21:54:52 2015)
+
+ Preferred load address is 1d000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000bb6H .text                   CODE
+ 0002:00000000 000000b4H .idata$5                DATA
+ 0002:000000b4 00000004H .CRT$XCA                DATA
+ 0002:000000b8 00000004H .CRT$XCAA               DATA
+ 0002:000000bc 00000004H .CRT$XCZ                DATA
+ 0002:000000c0 00000004H .CRT$XIA                DATA
+ 0002:000000c4 00000004H .CRT$XIAA               DATA
+ 0002:000000c8 00000004H .CRT$XIZ                DATA
+ 0002:000000d0 00000278H .rdata                  DATA
+ 0002:00000348 00000049H .rdata$debug            DATA
+ 0002:000003a0 00000004H .rdata$sxdata           DATA
+ 0002:000003a4 00000004H .rtc$IAA                DATA
+ 0002:000003a8 00000004H .rtc$IZZ                DATA
+ 0002:000003ac 00000004H .rtc$TAA                DATA
+ 0002:000003b0 00000004H .rtc$TZZ                DATA
+ 0002:000003b8 0000005cH .xdata$x                DATA
+ 0002:00000414 0000003cH .idata$2                DATA
+ 0002:00000450 00000014H .idata$3                DATA
+ 0002:00000464 000000b4H .idata$4                DATA
+ 0002:00000518 00000304H .idata$6                DATA
+ 0002:0000081c 00000000H .edata                  DATA
+ 0003:00000000 00000018H .data                   DATA
+ 0003:00000018 0000036cH .bss                    DATA
+ 0004:00000000 000001c0H .rsrc$01                DATA
+ 0004:000001c0 00004d40H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000000       ___ImageBase               1d000000     <linker-defined>
+ 0001:00000000       _main                      1d001000 f   python.obj
+ 0001:00000016       _Py_Main                   1d001016 f   python27_d:python27_d.dll
+ 0001:00000120       _mainCRTStartup            1d001120 f   MSVCRTD:crtexe.obj
+ 0001:00000380       _NtCurrentTeb              1d001380 f i MSVCRTD:crtexe.obj
+ 0001:0000043e       __configthreadlocale       1d00143e f   MSVCRTD:MSVCR80D.dll
+ 0001:00000450       __setdefaultprecision      1d001450 f   MSVCRTD:fp8.obj
+ 0001:00000490       __invoke_watson_if_error   1d001490 f i MSVCRTD:fp8.obj
+ 0001:000004ba       ___setusermatherr          1d0014ba f   MSVCRTD:MSVCR80D.dll
+ 0001:000004c0       __matherr                  1d0014c0 f   MSVCRTD:merr.obj
+ 0001:000004d0       __setargv                  1d0014d0 f   MSVCRTD:dllargv.obj
+ 0001:000004e0       __RTC_Initialize           1d0014e0 f   MSVCRTD:initsect.obj
+ 0001:00000510       __RTC_Terminate            1d001510 f   MSVCRTD:initsect.obj
+ 0001:00000536       ___p__commode              1d001536 f   MSVCRTD:MSVCR80D.dll
+ 0001:0000053c       ___p__fmode                1d00153c f   MSVCRTD:MSVCR80D.dll
+ 0001:00000550       __onexit                   1d001550 f   MSVCRTD:atonexit.obj
+ 0001:00000650       _atexit                    1d001650 f   MSVCRTD:atonexit.obj
+ 0001:0000066a       __encode_pointer           1d00166a f   MSVCRTD:MSVCR80D.dll
+ 0001:00000670       ___set_app_type            1d001670 f   MSVCRTD:MSVCR80D.dll
+ 0001:00000676       __amsg_exit                1d001676 f   MSVCRTD:MSVCR80D.dll
+ 0001:0000067c       ___getmainargs             1d00167c f   MSVCRTD:MSVCR80D.dll
+ 0001:00000690       ___security_init_cookie    1d001690 f   MSVCRTD:gs_support.obj
+ 0001:000007aa       __exit                     1d0017aa f   MSVCRTD:MSVCR80D.dll
+ 0001:000007b0       __XcptFilter               1d0017b0 f   MSVCRTD:MSVCR80D.dll
+ 0001:000007b6       __cexit                    1d0017b6 f   MSVCRTD:MSVCR80D.dll
+ 0001:000007bc       _exit                      1d0017bc f   MSVCRTD:MSVCR80D.dll
+ 0001:000007c2       __CrtSetCheckCount         1d0017c2 f   MSVCRTD:MSVCR80D.dll
+ 0001:000007d0       __ValidateImageBase        1d0017d0 f   MSVCRTD:pesect.obj
+ 0001:00000830       __FindPESection            1d001830 f   MSVCRTD:pesect.obj
+ 0001:000008b0       __IsNonwritableInCurrentImage 1d0018b0 f   MSVCRTD:pesect.obj
+ 0001:000009c0       __CrtDbgReportW            1d0019c0 f   MSVCRTD:MSVCR80D.dll
+ 0001:000009c6       __initterm                 1d0019c6 f   MSVCRTD:MSVCR80D.dll
+ 0001:000009cc       __initterm_e               1d0019cc f   MSVCRTD:MSVCR80D.dll
+ 0001:000009e0       __except_handler4          1d0019e0 f   MSVCRTD:chandler4gs.obj
+ 0001:00000a08       __controlfp_s              1d001a08 f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a0e       __invoke_watson            1d001a0e f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a14       __unlock                   1d001a14 f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a1a       ___dllonexit               1d001a1a f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a20       __lock                     1d001a20 f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a26       __decode_pointer           1d001a26 f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a2c       __except_handler4_common   1d001a2c f   MSVCRTD:MSVCR80D.dll
+ 0001:00000a40       @__security_check_cookie@4 1d001a40 f   MSVCRTD:secchk.obj
+ 0001:00000a50       ___report_gsfailure        1d001a50 f   MSVCRTD:gs_report.obj
+ 0001:00000b5c       __crt_debugger_hook        1d001b5c f   MSVCRTD:MSVCR80D.dll
+ 0001:00000b62       _InterlockedExchange@8     1d001b62 f   kernel32:KERNEL32.dll
+ 0001:00000b68       _Sleep@4                   1d001b68 f   kernel32:KERNEL32.dll
+ 0001:00000b6e       _InterlockedCompareExchange@12 1d001b6e f   kernel32:KERNEL32.dll
+ 0001:00000b74       _QueryPerformanceCounter@4 1d001b74 f   kernel32:KERNEL32.dll
+ 0001:00000b7a       _GetTickCount@0            1d001b7a f   kernel32:KERNEL32.dll
+ 0001:00000b80       _GetCurrentThreadId@0      1d001b80 f   kernel32:KERNEL32.dll
+ 0001:00000b86       _GetCurrentProcessId@0     1d001b86 f   kernel32:KERNEL32.dll
+ 0001:00000b8c       _GetSystemTimeAsFileTime@4 1d001b8c f   kernel32:KERNEL32.dll
+ 0001:00000b92       _FatalAppExitA@8           1d001b92 f   kernel32:KERNEL32.dll
+ 0001:00000b98       _TerminateProcess@8        1d001b98 f   kernel32:KERNEL32.dll
+ 0001:00000b9e       _GetCurrentProcess@0       1d001b9e f   kernel32:KERNEL32.dll
+ 0001:00000ba4       _UnhandledExceptionFilter@4 1d001ba4 f   kernel32:KERNEL32.dll
+ 0001:00000baa       _SetUnhandledExceptionFilter@4 1d001baa f   kernel32:KERNEL32.dll
+ 0001:00000bb0       _IsDebuggerPresent@0       1d001bb0 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp__IsDebuggerPresent@0 1d002000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__UnhandledExceptionFilter@4 1d002004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetCurrentProcess@0 1d002008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__TerminateProcess@8  1d00200c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__FatalAppExitA@8     1d002010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__GetSystemTimeAsFileTime@4 1d002014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcessId@0 1d002018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetCurrentThreadId@0 1d00201c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetTickCount@0      1d002020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__QueryPerformanceCounter@4 1d002024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__InterlockedCompareExchange@12 1d002028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__Sleep@4             1d00202c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__InterlockedExchange@8 1d002030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__SetUnhandledExceptionFilter@4 1d002034     kernel32:KERNEL32.dll
+ 0002:00000038       \177KERNEL32_NULL_THUNK_DATA 1d002038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp____initenv           1d00203c     MSVCRTD:MSVCR80D.dll
+ 0002:00000040       __imp___CrtSetCheckCount   1d002040     MSVCRTD:MSVCR80D.dll
+ 0002:00000044       __imp___CrtDbgReportW      1d002044     MSVCRTD:MSVCR80D.dll
+ 0002:00000048       __imp___initterm           1d002048     MSVCRTD:MSVCR80D.dll
+ 0002:0000004c       __imp___initterm_e         1d00204c     MSVCRTD:MSVCR80D.dll
+ 0002:00000050       __imp___controlfp_s        1d002050     MSVCRTD:MSVCR80D.dll
+ 0002:00000054       __imp__exit                1d002054     MSVCRTD:MSVCR80D.dll
+ 0002:00000058       __imp___unlock             1d002058     MSVCRTD:MSVCR80D.dll
+ 0002:0000005c       __imp____dllonexit         1d00205c     MSVCRTD:MSVCR80D.dll
+ 0002:00000060       __imp___lock               1d002060     MSVCRTD:MSVCR80D.dll
+ 0002:00000064       __imp___onexit             1d002064     MSVCRTD:MSVCR80D.dll
+ 0002:00000068       __imp___decode_pointer     1d002068     MSVCRTD:MSVCR80D.dll
+ 0002:0000006c       __imp___except_handler4_common 1d00206c     MSVCRTD:MSVCR80D.dll
+ 0002:00000070       __imp___crt_debugger_hook  1d002070     MSVCRTD:MSVCR80D.dll
+ 0002:00000074       __imp___cexit              1d002074     MSVCRTD:MSVCR80D.dll
+ 0002:00000078       __imp___XcptFilter         1d002078     MSVCRTD:MSVCR80D.dll
+ 0002:0000007c       __imp___exit               1d00207c     MSVCRTD:MSVCR80D.dll
+ 0002:00000080       __imp____getmainargs       1d002080     MSVCRTD:MSVCR80D.dll
+ 0002:00000084       __imp___amsg_exit          1d002084     MSVCRTD:MSVCR80D.dll
+ 0002:00000088       __imp____set_app_type      1d002088     MSVCRTD:MSVCR80D.dll
+ 0002:0000008c       __imp___encode_pointer     1d00208c     MSVCRTD:MSVCR80D.dll
+ 0002:00000090       __imp____p__fmode          1d002090     MSVCRTD:MSVCR80D.dll
+ 0002:00000094       __imp____p__commode        1d002094     MSVCRTD:MSVCR80D.dll
+ 0002:00000098       __imp___adjust_fdiv        1d002098     MSVCRTD:MSVCR80D.dll
+ 0002:0000009c       __imp____setusermatherr    1d00209c     MSVCRTD:MSVCR80D.dll
+ 0002:000000a0       __imp___configthreadlocale 1d0020a0     MSVCRTD:MSVCR80D.dll
+ 0002:000000a4       __imp___invoke_watson      1d0020a4     MSVCRTD:MSVCR80D.dll
+ 0002:000000a8       \177MSVCR80D_NULL_THUNK_DATA 1d0020a8     MSVCRTD:MSVCR80D.dll
+ 0002:000000ac       __imp__Py_Main             1d0020ac     python27_d:python27_d.dll
+ 0002:000000b0       \177python27_d_NULL_THUNK_DATA 1d0020b0     python27_d:python27_d.dll
+ 0002:000000b4       ___xc_a                    1d0020b4     MSVCRTD:cinitexe.obj
+ 0002:000000bc       ___xc_z                    1d0020bc     MSVCRTD:cinitexe.obj
+ 0002:000000c0       ___xi_a                    1d0020c0     MSVCRTD:cinitexe.obj
+ 0002:000000c8       ___xi_z                    1d0020c8     MSVCRTD:cinitexe.obj
+ 0002:000000ec       ??_C@_1BC@OHPNMDKE@?$AAc?$AAr?$AAt?$AAe?$AAx?$AAe?$AA?4?$AAc?$AA?$AA@ 1d0020ec     MSVCRTD:crtexe.obj
+ 0002:00000100       ??_C@_1FA@DALEHHGL@?$AA_?$AA_?$AAn?$AAa?$AAt?$AAi?$AAv?$AAe?$AA_?$AAs?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA_?$AAs?$AAt?$AAa?$AAt?$AAe?$AA?5?$AA?$DN?$AA?$DN?$AA?5?$AA_?$AA_?$AAi?$AAn?$AAi?$AAt@ 1d002100     MSVCRTD:crtexe.obj
+ 0002:00000150       ??_C@_1GE@KOCFNGPB@?$AA_?$AAc?$AAo?$AAn?$AAt?$AAr?$AAo?$AAl?$AAf?$AAp?$AA_?$AAs?$AA?$CI?$AA?$CI?$AA?$CI?$AAv?$AAo?$AAi?$AAd?$AA?5?$AA?$CK?$AA?$CJ?$AA0?$AA?$CJ?$AA?0?$AA?5?$AA0?$AAx?$AA0?$AA0?$AA0?$AA1@ 1d002150     MSVCRTD:fp8.obj
+ 0002:000001b4       ??_C@_1CK@JMKHCBEI@?$AA_?$AAs?$AAe?$AAt?$AAd?$AAe?$AAf?$AAa?$AAu?$AAl?$AAt?$AAp?$AAr?$AAe?$AAc?$AAi?$AAs?$AAi?$AAo?$AAn?$AA?$AA@ 1d0021b4     MSVCRTD:fp8.obj
+ 0002:000001e0       ??_C@_1BI@DMMHIADH@?$AAi?$AAn?$AAt?$AAe?$AAl?$AA?2?$AAf?$AAp?$AA8?$AA?4?$AAc?$AA?$AA@ 1d0021e0     MSVCRTD:fp8.obj
+ 0002:000001f8       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1d0021f8     MSVCRTD:initsect.obj
+ 0002:000001fc       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1d0021fc     MSVCRTD:initsect.obj
+ 0002:00000200       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1d002200     MSVCRTD:initsect.obj
+ 0002:00000204       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1d002204     MSVCRTD:initsect.obj
+ 0002:00000208       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1d002208     MSVCRTD:initsect.obj
+ 0002:00000210       ??_C@_0OH@IHEJDJAH@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@ 1d002210     MSVCRTD:gs_support.obj
+ 0002:00000300       __load_config_used         1d002300     MSVCRTD:loadcfg.obj
+ 0002:000003a0       ___safe_se_handler_table   1d0023a0     <linker-defined>
+ 0002:000003a4       ___rtc_iaa                 1d0023a4     MSVCRTD:initsect.obj
+ 0002:000003a8       ___rtc_izz                 1d0023a8     MSVCRTD:initsect.obj
+ 0002:000003ac       ___rtc_taa                 1d0023ac     MSVCRTD:initsect.obj
+ 0002:000003b0       ___rtc_tzz                 1d0023b0     MSVCRTD:initsect.obj
+ 0002:00000414       __IMPORT_DESCRIPTOR_python27_d 1d002414     python27_d:python27_d.dll
+ 0002:00000428       __IMPORT_DESCRIPTOR_MSVCR80D 1d002428     MSVCRTD:MSVCR80D.dll
+ 0002:0000043c       __IMPORT_DESCRIPTOR_KERNEL32 1d00243c     kernel32:KERNEL32.dll
+ 0002:00000450       __NULL_IMPORT_DESCRIPTOR   1d002450     python27_d:python27_d.dll
+ 0003:00000000       ___globallocalestatus      1d003000     MSVCRTD:xthdloc.obj
+ 0003:00000004       ___defaultmatherr          1d003004     MSVCRTD:merr.obj
+ 0003:00000008       ___native_dllmain_reason   1d003008     MSVCRTD:natstart.obj
+ 0003:0000000c       ___native_vcclrit_reason   1d00300c     MSVCRTD:natstart.obj
+ 0003:00000010       ___security_cookie         1d003010     MSVCRTD:gs_cookie.obj
+ 0003:00000014       ___security_cookie_complement 1d003014     MSVCRTD:gs_cookie.obj
+ 0003:00000038       __commode                  1d003038     MSVCRTD:xncommod.obj
+ 0003:0000003c       __fmode                    1d00303c     MSVCRTD:xtxtmode.obj
+ 0003:00000040       __dowildcard               1d003040     MSVCRTD:wildcard.obj
+ 0003:00000044       __newmode                  1d003044     MSVCRTD:_newmode.obj
+ 0003:0000036c       ___native_startup_state    1d00336c     <common>
+ 0003:00000370       ___native_startup_lock     1d003370     <common>
+ 0003:00000374       ___onexitend               1d003374     <common>
+ 0003:00000378       ___onexitbegin             1d003378     <common>
+ 0003:0000037c       __adjust_fdiv              1d00337c     <common>
+ 0003:00000380       ___dyn_tls_init_callback   1d003380     <common>
+
+ entry point at        0001:00000120
+
+ Static symbols
+
+ 0001:00000020       _pre_c_init                1d001020 f   MSVCRTD:crtexe.obj
+ 0001:000000c0       _pre_cpp_init              1d0010c0 f   MSVCRTD:crtexe.obj
+ 0001:00000130       ___tmainCRTStartup         1d001130 f   MSVCRTD:crtexe.obj
+ 0001:00000390       _check_managed_app         1d001390 f   MSVCRTD:crtexe.obj
